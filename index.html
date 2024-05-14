@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>testbook_quizapp</title>
+  <link rel="stylesheet" href="src/css/index.css" />
+
+</head>
+
+<body>
+  <div class="bg_box" id="loginPage" style="display:block;">
+    <img src="src/img/testbook_logo.jpg" alt="">
+    <!-- logo image  -->
+    <h1 id="wlcm_msg">Hello <span id="user_name">User</span> !</h1>
+    <h3>Enter Your Name to continue the Quiz.</h3>
+    <div class="input_area">
+      <input type="text" name="uname" id="uname" placeholder="Enter User Name">
+      <input type="submit" value="Enter" class="btn" id="enter123">
+    </div>
+    <p>you'll have 10 seconds to answer each question</p>
+    <hr>
+    <h2>Select Category</h2>
+    <div class="cat_area">
+      <button class="catName" id="pipeCistern">
+        Pipes Cistern
+      </button>
+      <button class="catName" id="probability">
+        Probability
+      </button>
+
+      <button class="catName" id="ageProblem">
+        Problem on Ages
+      </button>
+      <button class="catName" id="profitLoss">
+        Profit and Loss
+      </button>
+    </div>
+  </div>
+  <div class="bg_box" id="questionArea">
+    <h3 id="cat_name">Pipes and Cistern</h3>
+    <h3 style="float:left;margin-left: 50px;">Timer:- <span id="timer">10</span></h3>
+    <h3 style="float:right;margin-right: 50px;">Score :- <span id="score">0</span>
+    </h3>
+    <div id="question_number"><span id="qnum">1</span>/10</div>
+    <p id="question">
+      <!-- question Here -->
+    </p>
+    <div class="options">
+      <button class="option" id="option1">
+        <!-- option 1 -->
+      </button>
+      <button class="option" id="option2">
+        <!-- option 2 -->
+      </button>
+      <button class="option" id="option3">
+        <!-- option 3 -->
+      </button>
+      <button class="option" id="option4">
+        <!-- option 4 -->
+      </button>
+      <button class="" id="nxtQuestionBtn" style="width:20%">Next</button>
+    </div>
+  </div>
+  <div class="bg_box" id="resultArea">
+    <h1>Quiz Result</h1>
+    <h3>
+      <span id="user_result"></span> your Result is:
+    </h3>
+    <p>Total Time Taken <span class="bold" id="total_time_taken"></span></p>
+    <p>Total Question <span class="bold">10</span></p>
+    <p>Attempted Question <span class="bold" id="attempted">10</span>
+    <p>Correct <span class="bold" id="correct">3</span></p>
+    <p>Wrong<span class="bold" id="wrong">7</span></p>
+    <p>Percentage<span class="bold" id="percentage"></span>%</p>
+    <div class="btn_area">
+      <button id="startAgain">Start Again</button>
+      <button id="goToHome">Go To Home</button>
+    </div>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>

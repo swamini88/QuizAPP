@@ -1,0 +1,83 @@
+.bg_box {
+    text-align: center;
+    height: 80vh;
+    /* background-color: red; */
+    width: 100%;
+    /* border: 1px solid gray; */
+    /* margin: 3rem auto; */
+    border-radius: 10px px;
+    padding: 1rem;
+}
+
+.cat_area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* row-gap: 1rem; */
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.cat_area button {
+    border: 2px solid rgb(56, 156, 237);
+    padding: 1rem;
+    background-color: rgb(171, 204, 208);
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+    width: 35%;
+}
+
+#question {
+    top: 15%;
+    left: -10px;
+    position: relative;
+    max-width: 100%;
+    margin: 1px auto;
+    border: 1px solid goldenrod;
+    padding: 1rem;
+    color: black;
+}
+
+#question_number {
+    border: 2px solid rgb(26, 163, 163);
+    color: rgb(26, 163, 163);
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    background-color: white;
+    z-index: 1;
+    /* width: 1.5rem; */
+    font-size: 17px;
+    /* height: 2rem; */
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+#question_number {
+    border: 2px solid rgb(26, 163, 163);
+    color: rgb(26, 163, 163);
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    background-color: white;
+    z-index: 1;
+    /* width: 1.5rem; */
+    font-size: 17px;
+    /* height: 2rem; */
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.options {
+    /* width: 47%; */
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* left: 26%; */
+    position: relative;
+    top: 20%;
+}
